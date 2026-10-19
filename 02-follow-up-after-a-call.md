@@ -9,7 +9,7 @@ The call goes well, both sides say "let's follow up", and nobody does. A follow-
 3. A short style note `voice.md`: five real messages the owner wrote, so Claude writes like the owner and not like a protocol bot.
 
 ## The recipe
-1. Drop the transcript into `calls/`. Ask Claude: "Follow-up for today's call with <name>."
+1. Paste the transcript into the chat, or drop it into `calls/` once that habit exists. Ask Claude: "Follow-up for today's call with <name>."
 2. Claude reads the transcript and the person's card, then produces three things:
    - **Follow-up message** in the owner's voice, under 80 words, one concrete next step with a date.
    - **Action items**, each with an owner and a deadline, taken only from what was actually said.

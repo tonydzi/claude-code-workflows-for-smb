@@ -17,7 +17,7 @@ Every new Claude Code session starts empty. You re-explain who the client is, wh
 A memory record is never rewritten or deleted. When it turns out wrong, add `status: superseded`, `superseded_by: <new note>` and the date. The next session sees both the old belief and why it changed. Silent rewrites destroy trust in the whole folder.
 
 ## What broke for us
-- The index grew past 200 lines and the tail silently stopped loading. Now a nightly script warns at 150.
+- The index grew past 200 lines and the tail silently stopped loading. Now a nightly script warns at 150, and lines older than a quarter move to `MEMORY-archive.md` with the index line pointing there.
 - Two sessions edited the same note within minutes and one overwrote the other. Now every write logs who touched the file; a second author within 15 minutes triggers a conflict check.
 - Claude built a transcription tool we already had. The RECALL step above is the direct result.
 

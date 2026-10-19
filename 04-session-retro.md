@@ -11,7 +11,7 @@ A long working session with Claude produces one good tool, two good rules and a 
 At the end of any session that produced something, say "retro". Claude then:
 1. Lists what was built, what was decided and what failed, with the file or command as evidence.
 2. Sorts each item: **Keep** (it worked, it goes to its home), **Drop** (it did not work, write one line why so nobody repeats it), **Try** (promising, not proven, parked with a date to revisit).
-3. Writes each Keep item to its home: a lesson becomes a note, a repeatable instruction becomes a skill file, a decision becomes a decision note with the alternatives considered.
+3. Writes each Keep item to its home: a lesson becomes a note, a repeatable instruction becomes a skill file (a plain Markdown page in `skills/` that `CLAUDE.md` tells Claude to read when the trigger word appears; nothing to install), a decision becomes a decision note with the alternatives considered.
 4. Adds one index line per new home to `MEMORY.md`.
 5. Prints a short hand-over block: "what we did, where it stands, next step", so the next session, or the next person, starts there.
 

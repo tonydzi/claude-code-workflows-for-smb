@@ -16,7 +16,7 @@ Written for Approved Claude SMB Trainer cohorts to reuse in workshops. Take them
 
 Each page has the same shape: **Problem · Setup · The recipe · The one rule · What broke for us · Minimum viable version**. Run workflow 1 first; the other four assume Claude can read and write a folder of Markdown notes. Workflow 4 is the one that keeps the other three alive.
 
-A 4-hour workshop maps onto them like this: hour 1 = workflow 1 (structure and memory), hour 2 = workflow 2 (first artifact), hour 3 = workflow 4 as the first skill the group writes, hour 4 = pick 3 or 5 depending on the room.
+A 4-hour workshop maps onto them like this: hour 1 = workflow 1 (structure and memory), hour 2 = workflow 2 (first artifact), hour 3 = workflow 4 as the first skill the group writes, hour 4 = pick 3 or 5 depending on the room. For a room that "just chats", teach 3 and 5 from their **Minimum viable version** only: upload photos straight into Claude, write the question to a file. The scripts are the second workshop, not the first.
 
 ## Ground rules we learned the hard way
 
