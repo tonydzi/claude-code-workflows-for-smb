@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these workflows in teaching or software, please cite them as below."
+title: "Claude Code workflows for SMB teams"
+type: software
+authors:
+  - family-names: Dziatkovskii
+    given-names: Anton
+    orcid: "https://orcid.org/0000-0001-7408-3054"
+    affiliation: "Palo Alto AI Research Lab"
+repository-code: "https://github.com/tonydzi/claude-code-workflows-for-smb"
+url: "https://github.com/tonydzi/claude-code-workflows-for-smb"
+license: MIT
+date-released: "2026-10-19"
+version: "1.0.0"
+keywords:
+  - claude-code
+  - workflows
+  - small-business
+  - agent-memory
+  - approval-gate
+abstract: >-
+  Five one-page Claude Code workflows run daily in a small operating team of
+  one human operator and a few Claude Code sessions: memory between sessions,
+  follow-up after a call, leads from the camera roll, session retro, and an
+  approval gate in a messenger. Each page follows the same shape (problem,
+  setup, recipe, one rule, what broke, minimum viable version). Written for
+  Claude SMB trainer cohorts to reuse in workshops. Sanitized from a live
+  system; no controlled comparison is reported.
