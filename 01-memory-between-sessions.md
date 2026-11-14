@@ -6,7 +6,7 @@ Every new Claude Code session starts empty. You re-explain who the client is, wh
 ## Setup (one hour, once)
 1. Create a folder `vault/` next to your project. Inside: `people/`, `decisions/`, `insights/`, and a file `MEMORY.md`.
 2. In `CLAUDE.md` add one paragraph: "Before building anything or answering a question about past work, read `MEMORY.md`, then search `vault/` for the topic. Build only after confirming we do not already have it."
-3. `MEMORY.md` is an index, not a diary: one line per fact, under 150 characters, pointing to the note that holds the detail. Keep it under 200 lines; Claude loads it every session.
+3. `MEMORY.md` is an index, not a diary: one line per fact, under 150 characters, pointing to the note that holds the detail. Keep it under 200 lines; Claude reads it every session because of the paragraph you added to `CLAUDE.md` in step 2.
 
 ## The recipe (every session)
 - **Start.** Claude reads `MEMORY.md`, searches `vault/` for the topic, and says in one line what already exists. We call this RECALL. It happens before the first edit, not after the first mistake.

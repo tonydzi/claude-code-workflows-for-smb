@@ -7,7 +7,7 @@ Five one-page recipes that show a small team how to use Claude Code every day: m
 
 ## Quick start
 1. Open [01-memory-between-sessions.md](01-memory-between-sessions.md) and follow its "Setup" section (one folder, one index file, one sentence in CLAUDE.md).
-2. Run one normal session and let Claude read the index first.
+2. Run one normal session and let Claude read the index first. Before you close it, ask Claude to add one line to `MEMORY.md` about something you decided (otherwise the next session has nothing to remember).
 3. Pick the next workflow from the table below that matches your pain.
 
 **Done when:** a new Claude Code session tells you in one line what you already decided or built before, without you explaining it again.
@@ -30,7 +30,9 @@ Five one-page recipes that show a small team how to use Claude Code every day: m
 Only the project folder path and the paragraph added to CLAUDE.md. Workflows 3 and 5 involve photos and a messenger: ask the human before touching either, and never send anything on their behalf.
 
 ### Verify
-Start a fresh session in the project and ask "what do we already have about <a topic you noted>?". Expected: the agent reads `MEMORY.md` and answers from the notes in one line.
+1. Make sure `MEMORY.md` has at least one real line about a topic (write one with the human if the setup session did not: for example `- 2026-01-05 chose weekly invoicing, see decisions/invoicing.md`, plus that note).
+2. Check the paragraph landed: the project's `CLAUDE.md` contains the RECALL sentence, and the file was appended to, not overwritten.
+3. Start a fresh session in the project and ask "what do we already have about <that topic>?". Expected: the agent reads `MEMORY.md` first and answers in one line from that note, naming it. If it answers generically or says it knows nothing, the setup failed (wrong folder, or `CLAUDE.md` not in the project root). With an empty `MEMORY.md` this test proves nothing, so do step 1 first.
 
 ### Uninstall / rollback
 Delete the `vault/` folder you created (only if this setup created it and the human agrees) and remove the added paragraph from CLAUDE.md.
