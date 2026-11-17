@@ -76,3 +76,7 @@ A one-operator lab that has run a fleet of Claude Code sessions across several m
 
 ---
 Anton Dziatkovskii · github.com/tonydzi
+
+## AI contributors
+
+This project is built by a human + AI team. Credit for AI tools on commits follows one policy, one source for every repo: [AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
